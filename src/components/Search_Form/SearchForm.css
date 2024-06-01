@@ -1,0 +1,23 @@
+.form-container{
+  height:80px;
+  width:700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 20px 50px 50px #757676;
+}
+.form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width:700px ;
+}
+
+input{
+  height: 40px;
+  width: 400px;
+}

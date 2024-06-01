@@ -1,0 +1,41 @@
+
+.details-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  text-align: center;
+  width: 1000px;
+  height: 500px;
+  box-shadow: 0 50px 50px #757676;
+  background-color: #DCE0E1;
+}
+
+
+.img-container{
+  height: 350px;
+  width:350px;
+  padding: 5px;
+}
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+.recipe-details{
+  min-height: 350px;
+  width:600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+span{
+  font-weight:bold
+
+}
+h2{
+  font-size: 20px;
+}

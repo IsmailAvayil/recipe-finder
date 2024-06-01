@@ -1,0 +1,45 @@
+.fav-container{
+  background-color:white;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 70px;
+  padding: 5px;
+  margin-bottom: 5px;
+  width:370px
+
+}
+.fav-img-container{
+  height: 60px;
+  width: 60px;
+}
+.fav-img-container img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+h2{
+  text-align: center;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+button{
+  height: 10px;
+  width: 2px;
+}
+h6{
+  width: 100px;
+  color: black;
+  
+}
